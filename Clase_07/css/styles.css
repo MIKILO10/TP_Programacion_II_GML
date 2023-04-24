@@ -1,0 +1,117 @@
+img {
+  display: block;
+  margin: auto;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
+
+.color_fondo {
+  background-color: darkgrey;
+  height: 70px;
+  margin-bottom: 150px;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+.colorHeader {
+  background-color: gainsboro;
+}
+
+h3 {
+  color: #005677;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  -webkit-text-stroke: 0.5px rgb(3, 126, 148);
+}
+
+main {
+  background-color: white;
+}
+
+.colorFondoh3 {
+  color: #005677;
+  background-color: darkgrey;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  -webkit-text-stroke: 0.5px rgb(6, 155, 182);
+}
+
+.espacioAlto {
+  margin-top: 120px;
+}
+
+h5 {
+  margin-left: 10px;
+  font-size: 40px;
+}
+
+ul {
+  font-size: 35px;
+  margin-left: 50px;
+}
+
+li {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+}
+
+a {
+  color: black !important;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.sinPuntos {
+  list-style: none;
+  font-weight: bold;
+  font-style: normal;
+}
+
+p {
+  color: black !important;
+  font-weight: normal;
+  font-style: normal;
+  margin-left: 170px;
+}
+
+footer {
+  background-color: #005677;
+  padding: 10px;
+}
+
+.textoFooter {
+  font-family: "Times New Roman", Times, serif;
+  color: #ffffff !important;
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+}
+
+#insta {
+  background: white;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+  margin: 10px;
+}
+
+#ln {
+  background: white;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+  margin: 10px;
+}
+
+.info {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
